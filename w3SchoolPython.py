@@ -99,3 +99,4 @@ Thislist = ["grosella negra", "sandía"]
 for x in range(len(Thislist)):
    print(Thislist)
 
+estalista = []
