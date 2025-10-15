@@ -52,7 +52,7 @@ print(Thislist[2:]) # Empieza desde la pocicion 2 hasta el final de la lista
 print(Thislist[-1:-4]) # Imprime en blanco por que el rango no empieza desde la ultima pocicion. 
 print(Thislist[-4:-1]) #imprime desde la pocicion -4 (De Derecha a izquierda) hasta el -2, el -1 no cuenta. 
 
-#########_____________________________###############3
+#########_____________________________###############
 #REVISA SI UN ELEMENTO ESTA EN LA LISTA.
 Thislist = ["apple", "Banana", "Cherry", "orange", "kiwi", "melon", "mango"]
 if "apple" in Thislist:
