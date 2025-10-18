@@ -126,6 +126,7 @@ print (lista [-4:-7:-1])
 lista[:3] = [3, 2, 1]
 print (lista)
 
-len(lista) 
+print("la longitud de la lista es de: ", len(lista)) #imprime la longitud de la lista. 
+
 
 
