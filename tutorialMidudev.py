@@ -47,21 +47,24 @@ matrices = [[2, 4], [45, 85], [4621, 78]] #Se separa por comas
 #se coloca un nuevo elemento en una pocicion de la lista sin reemplazar nada.
 
 lista0.insert(2, "sandias")
-print(lista0)
+#print(lista0)
 
 lista2 = ["computadora", "Telefono", "mimadre"]
 lista0.extend(lista2) #junta dos listas en una.
-print (lista0)
+#print (lista0)
 
 lista0.remove ("mimadre")
-print (lista0) #Remueve un item señalado en la lista. 
+#print (lista0) #Remueve un item señalado en la lista. 
 
 lista1.clear()#Limpia toda la lista 
-print(lista1) 
+#print(lista1) 
 
 ###  hay mas magia ##########3
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(lista [::2]) #Salta de 2 en 2, indices impares.
-print (lista [::-1])
+print (lista [::-1]) # muestra los valores de la lista en orden inverso. 
+###  print (lista[desde : hasta : paso:])
 
+#imprimir lista de listas. de elementos señalados.
+print (matrices [1] [0]) 
 
