@@ -1,5 +1,5 @@
 import os
-os.system("clear")
+os.system("cls")
 
 #INPUT EN PYTHON 
 print ("Hola como te llamas??")
