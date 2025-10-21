@@ -77,6 +77,14 @@ lista = lista + [10, 11, 12, 13, 14]
 lista += [10, 11, 12, 13, 14]
 print (lista)
 
+############### EJERCICIOS DE LISTAS DE PYTHON #################################################
+
+# Ejercicio 1: El mensaje secreto
+# Dada la siguiente lista:
+mensaje = ["C", "o", "d", "i", "g", "o", " ", "s", "e", "c", "r", "e", "t", "o"]
+#Utilizando slicing y concatenación, crea una nueva lista que contenga solo el mensaje "secreto".
+print(mensaje[7:])
+
 # Ejercicio 2: Intercambio de posiciones
 # Dada la siguiente lista:
 numeros = [10, 20, 30, 40, 50]
